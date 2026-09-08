@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="mdi mdi-view-dashboard"></span>
+          <span>Dashboard</span>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#"><span class="mdi mdi-home"></span>Home</a>
+          <a href="#"
+            ><span class="mdi mdi-card-account-details-outline"></span>
+            Profile</a
+          >
+          <a href="#"><span class="mdi mdi-message"></span>Messages</a>
+          <a href="#"><span class="mdi mdi-clock-time-three"></span> History</a>
+          <a href="#"><span class="mdi mdi-note-multiple"></span>Tasks</a>
+          <a href="#"><span class="mdi mdi-account-group"></span>Communities</a>
+        </nav>
+
+        <nav class="secondary-nav">
+          <a href="#"><span class="mdi mdi-cog"></span>Settings</a>
+          <a href="#"><span class="mdi mdi-help-box"></span>Support</a>
+          <a href="#"><span class="mdi mdi-shield-check"></span>Privacy</a>
+        </nav>
+      </aside>
+
+      <header class="header">
+        <div class="search-row">
+          <div class="search">
+            <span class="mdi mdi-magnify"></span>
+            <input type="search" aria-label="Search" />
+          </div>
+
+          <div class="user-small">
+            <span class="mdi mdi-bell-ring-outline"></span>
+            <div class="avatar avatar-yellow">🐷</div>
+            <strong>Morgan Oakley</strong>
+          </div>
+        </div>
+
+        <div class="welcome-row">
+          <div class="user-large">
+            <div class="avatar avatar-yellow large">🐷</div>
+            <div>
+              <small>Hi there,</small>
+              <h1>Morgan Oakley (@morgan)</h1>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="projects">
+          <h2>Your Projects</h2>
+          <div class="project-grid">
+            <article class="card project-card">
+              <div>
+                <h3>Super Cool Project</h3>
+                <p>
+                  Sequi tempora sit lacus ut scelerisque. Suspendisse
+                  sollicitudin nibh erat, id facilisis felis aliquam nec.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div>
+                <h3>Less Cool Project</h3>
+                <p>
+                  Nullam condimentum ipsum ut lectus vehicula consectetur.
+                  Quisque sed dolor tincidunt, consectetur sapien et, facilisis
+                  dolor.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div>
+                <h3>Impossible App</h3>
+                <p>
+                  In hac habitasse platea dictumst. Vivamus dictum rutrum arcu,
+                  a placerat velit sagittis id.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div>
+                <h3>Easy Peasy App</h3>
+                <p>
+                  Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+                  urna eget accumsan aliquam.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div>
+                <h3>Ad Blocker</h3>
+                <p>
+                  Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                  vel, pharetra hendrerit felis.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div>
+                <h3>Money Maker</h3>
+                <p>
+                  Praesent convallis, libero quis congue elementum, nunc ante
+                  faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                </p>
+              </div>
+              <div class="card-actions">
+                <span class="mdi mdi-star-plus-outline"></span>
+                <span class="mdi mdi-eye-plus-outline"></span>
+                <span class="mdi mdi-source-fork"></span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <aside class="right-column">
+          <section>
+            <h2>Announcements</h2>
+            <div class="card announcements">
+              <article>
+                <h3>Site Maintenance</h3>
+                <p>
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue...
+                </p>
+              </article>
+              <article>
+                <h3>Community Share Day</h3>
+                <p>
+                  Nam vel lectus tincidunt, rutrum eu, ornare libero. Aliquam
+                  dictum accumsan porttitor...
+                </p>
+              </article>
+              <article>
+                <h3>Updated Privacy Policy</h3>
+                <p>
+                  Phasellus efficitur nisi eget elit consectetur, eget
+                  condimentum ante auctor.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <h2>Trending</h2>
+            <div class="card trending">
+              <div class="trend">
+                <div class="avatar avatar-blue">🦈</div>
+                <div>
+                  <strong>@tegan</strong><small>World Peace Builder</small>
+                </div>
+              </div>
+              <div class="trend">
+                <div class="avatar avatar-yellow">🐷</div>
+                <div>
+                  <strong>@morgan</strong><small>Super Cool Project</small>
+                </div>
+              </div>
+              <div class="trend">
+                <div class="avatar avatar-gray">👨🏿</div>
+                <div>
+                  <strong>@kendall</strong><small>Life Changing App</small>
+                </div>
+              </div>
+              <div class="trend">
+                <div class="avatar avatar-pink">👒</div>
+                <div><strong>@alex</strong><small>No Traffic Maker</small></div>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
